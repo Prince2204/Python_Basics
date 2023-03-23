@@ -73,3 +73,24 @@ print("empty_dict is : ",empty_dict)
 
 create_dict=dict(yellow="Y", red="R")
 print(create_dict)
+
+#Grabbing values from Dictionary
+d = {'simple_key':'hello'}
+print(d['simple_key'])
+# Grab 'hello'
+d1 = {'k1':{'k2':'hello'}}
+print(d1['k1']['k2'])
+# Grab 'hello'
+# Getting a little tricker
+d2 = {'k1':[{'nest_key':['this is deep',['hello']]}]}
+print(d2['k1'][0]['nest_key'][1][0])
+
+#Grab hello
+# This will be hard and annoying!
+d3 = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
+print(d3['k1'][2]['k2'][1]['tough'][2][0])
+
+#Use a set to find the unique values of the list below:
+list5 = [1,2,2,33,4,4,11,22,3,3,2]
+unique_values=set(list5)
+print(unique_values)
