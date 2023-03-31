@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>96c9aabe-cbdd-4e31-9e4a-c69048f53a72</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>module1.py</StartupFile>
+    <StartupFile>ObjectOriented\WebScrapping1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,64 +21,173 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AssingmentAndExpressions.py">
+    <Compile Include="Basics\AssingmentAndExpressions.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GroceryStoreExercise.py">
+    <Compile Include="Collections\Generator.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="InputFunction.py">
+    <Compile Include="Exercises\GroceryStoreExercise.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="FunctionWithParameter.py">
+    <Compile Include="Basics\InputFunction.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CelsiusToFarenhiet.py">
+    <Compile Include="Basics\FunctionWithParameter.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MilesPerGallon.py">
+    <Compile Include="Exercises\CelsiusToFarenhiet.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GradeDeterminer.py">
+    <Compile Include="Exercises\MilesPerGallon.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Loops.py">
+    <Compile Include="Exercises\GradeDeterminer.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CharacterCount.py">
+    <Compile Include="Basics\Loops.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="FizzBuzz.py">
+    <Compile Include="Exercises\CharacterCount.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ListExercise.py">
+    <Compile Include="Exercises\FizzBuzz.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DictionaryExercise.py">
+    <Compile Include="Collections\ListExercise.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="module1.py">
+    <Compile Include="Collections\DictionaryExercise.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ShallowAndDeepCopy.py">
+    <Compile Include="FileReadWrite\FileRead.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="StringMethods2.py">
+    <Compile Include="FileReadWrite\FileWrite.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ReverseString.py">
+    <Compile Include="Basics\FunctionsExercise.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RomanNumeralEquivalent.py">
+    <Compile Include="Basics\FunctionsExercise2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RectangularPrismVolume.py">
+    <Compile Include="FileReadWrite\module1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="StringExamples.py">
+    <Compile Include="FileReadWrite\ZipUnzipReadUsingOSShutil.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="VariablesExample.py" />
+    <Compile Include="FileReadWrite\ZipUnzipUsingZipFile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileReadWrite\ZipUnZipUsinShutil.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Milestone_Projects\RegexExample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Milestone_Projects\Tic_Tac_Toe_Game.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\StatementsExercises.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\ShallowAndDeepCopy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\StringMethods2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercises\ReverseString.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercises\RomanNumeralEquivalent.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercises\RectangularPrismVolume.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\StringExamples.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Basics\VariablesExample.py" />
+    <Compile Include="ObjectOriented\CardGame\Cards.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\CardGame\CardsConstant.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\CardGame\Deck.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\CardGame\Game.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\CardGame\Player.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercises\DistanceBetweenCoordinates.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercises\BankAccount.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\ImagesExercise.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\MainPackage\MainTestModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\MainPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\ExceptionHandling1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\ModuleAndPackage.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\PDFandSpreadsheetsExercise.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\Receive_Email.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\Sending_Email.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\SubPackages\SubTestModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\SubPackages\__init__.py" />
+    <Compile Include="ObjectOriented\UnitTest\capitalize.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\UnitTest\TestCapitalize.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercises\Vol_surfaceArea_Cylinder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectOriented\WebScrapping1.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Collections\" />
+    <Folder Include="Exercises\" />
+    <Folder Include="FileReadWrite\" />
+    <Folder Include="Milestone_Projects\" />
+    <Folder Include="Basics\" />
+    <Folder Include="ObjectOriented\" />
+    <Folder Include="ObjectOriented\MainPackage\" />
+    <Folder Include="ObjectOriented\CardGame\" />
+    <Folder Include="ObjectOriented\UnitTest\" />
+    <Folder Include="ObjectOriented\SubPackages\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
